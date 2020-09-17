@@ -57,15 +57,6 @@ urlsCltr.destroy = (req, res) => {
             res.json(err)
         })
 }
-// urlsCltr.redirect = (req, res) => {
-//     const hash = req.params.hash
-//     Url.findAndUpdate({hashedUrl:hash}, {new: true, runValidators: true})
-//     .then((url) => { 
-//         res.json(url)
-//     })
-//     .catch((err) => {
-//         res.json(err)
-//     })
-// }
+
 
 module.exports = urlsCltr
