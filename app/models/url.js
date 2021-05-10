@@ -6,7 +6,7 @@ const urlSchema = new Schema({
         type:String,
         required:[true, 'title is mendatory']
     },
-//
+
     originalUrl:{
         type:String
          },

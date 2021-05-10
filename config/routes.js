@@ -4,7 +4,7 @@ const urlsCltr = require('../app/controllers/urlsCltr')
 
 
 
-//
+
 router.get('/urls', urlsCltr.list)
 router.post('/urls', urlsCltr.create)
 router.get('/urls/:id', urlsCltr.show)
