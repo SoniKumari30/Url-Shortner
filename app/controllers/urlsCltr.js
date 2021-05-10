@@ -50,7 +50,7 @@ urlsCltr.update = (req, res) => {
 urlsCltr.destroy = (req, res) => {
     const id = req.params.id 
     Url.findByIdAndDelete(id)
-        .then((url) => {
+        .then((url) => {//
             res.json(url)
         })
         .catch((err) => {
